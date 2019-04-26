@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles_cadastro_cliente.css">
+		<title> iMarket </title>
+	</head>
+	<body>
+		<header>
+			<img id="logo" src="imagens/logo.png">
+				
+					<ul>
+						<li><a href="" class="linkcab"> Quem somos? </a></li>
+						<li><a href="" class="linkcab"> Contato </a></li>
+						<li><a href="" class="linkcab"> Cadastre sua conta </a></li>
+					</ul>
+				
+		</header>
+
+		<div id="conteudo">
+			<div id="login">
+				<form method="POST" action="cadastraCliente.php">
+					<h1>Cadastrar Cliente</h1>
+					<div>
+						<input required type="text" name="nome" class="nome" placeholder="Nome Completo">
+					</div>
+
+					<div>
+						<input required type="text" name="cpf" class="cpf" placeholder="CPF">
+					</div>
+				
+					<div>
+						<input required type="text" name="fone" class="tel" placeholder="Telefone">
+					</div>
+					
+					<div>
+						<input required type="text" name="email" class="email" placeholder="Email">
+					</div>
+
+					<div>
+						<input required type="password" name="senha" class="senha" placeholder="Senha">
+					</div>
+
+					<div>
+						<input type="submit" name="" value="Cadastrar" class="submit">
+					</div>
+
+					<div class="espacamento">
+						<a href="login.php">Você já possui uma conta?</a>
+					</div>
+
+
+				</form>
+			</div>
+
+		</div>
+
+	
+	</body>
+</html>

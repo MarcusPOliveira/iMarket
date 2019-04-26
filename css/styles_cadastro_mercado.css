@@ -1,0 +1,109 @@
+/*
+layout página
+*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url(../imagens/fundo.jpg) no-repeat;
+}
+
+header {
+    background-color: #8B0000;
+	height: 100px;	
+}
+
+/*
+menu horizontal
+*/
+ul{
+	margin: 60px 100px;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #8B0000;
+	float: left;
+
+}
+
+ul li{
+	float: left;
+}
+
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+ul .primeiro a{
+	background: none;
+}
+
+ul a:hover{
+	background: #d13636;
+}
+
+input {
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px; 
+	border-radius: 10px;
+	border: 2px solid #000;
+
+}
+
+#conteudo a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
+input.email{
+	background-image: url(../imagens/email.png);
+}
+
+input.senha{
+	background-image: url(../imagens/senha.png);
+}
+
+input.submit{
+	color: #fff;
+	background-color: green;
+	padding: 5px 20px;
+	height: 45px;
+	width: 80;
+}
+
+input.submit:hover{
+	background-color: #32CD32;
+}
+
+#logo {
+	float: left;
+	margin-left: 250px;
+}
+
+/* Layout */
+
+
+
+#login {
+	width: 400px;
+	height: 290px;
+	margin: 140px auto;
+	border-radius: 10px;
+	text-align: center; 
+}
+
+.espacamento {
+	margin-bottom: 10px;
+}

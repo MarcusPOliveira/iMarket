@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles_cadastro_produto.css">
+		<title> Cadastrar Produto </title>
+	</head>
+	<body class="body">
+			<header>
+		<img id="logo" src="imagens/logo.png">
+				
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="supermercados.html">Supermercados</a></li>
+						<li><a href="pedidos.html">Pedidos</a></li>
+						<li><a href="favoritos.html">Favoritos</a></li>
+						<li><a href="configuracoes.html">Configurações</a></li>
+						 <li><a href="logout.php" class="linkcab"> Sair </a></li>
+					</ul>
+				
+		</header>
+
+		<div id="conteudo">
+			<div id="login">
+
+				<form method="POST" action="cadastrarProduto.php" >
+					<h1>Dados do Produto</h1>
+					<div>
+						<input type="text" name="nomeProduto" id="campo" placeholder="Nome">
+					</div>
+
+					<div>
+						<input type="text" name="tipo" id="campo" placeholder="Tipo"> 
+
+					</div>
+
+					<div>
+						<input type="text" name="descricao" id="campo" placeholder="Descrição">
+					</div>
+
+					<div>
+						<input type="text" name="fabricante" id="campo" placeholder="Fabricante">
+					</div>
+
+					<div>
+						<input type="text" name="marca" id="campo" placeholder="Marca">
+					</div>
+
+					<div>
+						<input type="text" name="avaliacao" id="campo" placeholder="Avaliação">
+					</div>
+					<div>
+						<input type="text" name="qde" id="campo" placeholder="Quantidade">
+					</div>
+					<div>
+						<input type="text" name="preco" id="campo" placeholder="Preço">
+					</div>
+
+					<div>
+						<input type="submit" name="" value="Cadastrar Produto" class="submit">
+					</div>
+
+					
+
+				</form>
+			</div>
+
+		</div>
+
+
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles_carrinho.css">
+		<title>Carrinho</title>
+	</head>
+	<body>
+		<header>
+		<img id="logo" src="imagens/logo.png">
+				
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="supermercados.html">Supermercados</a></li>
+						<li><a href="pedidos.html">Pedidos</a></li>
+						<li><a href="favoritos.html">Favoritos</a></li>
+						<li><a href="configuracoes.html">Configurações</a></li>
+					</ul>
+				
+		</header>
+
+
+		<div id="conteudo">
+			<div id="tabela">
+				<table>
+					<tr>
+						<th>Código</th>
+						<th>Imagem</th>
+						<th>Produto</th>
+						<th>Unidade</th>
+						<th>Descrição</th>
+						<th>Quantidade</th>
+						<th class="numero">Preço</th>
+					</tr>
+
+					<tr>
+						<td>001</td>
+						<td><img class="itemProduto" src="imagens/leiteCemil.jpg"></td>
+						<td>Leite Cemil </td>
+						<td>1 Litro</td>
+						<td>Integral</td>
+
+						<td>
+							<span>	
+								<input type="button" name="" id="btnDiminuiQntd" value="-">
+								<input type="text" name="quantidade" value="0" readonly="">
+								<input type="button" name="" id="btnAumentaQntd" value="+">
+							</span>
+						</td>
+						<td class="numero">R$ 5,78</td>
+					</tr>
+
+					<tr>
+						<td>002</td>
+						<td><img class="itemProduto" src="imagens/budweiser.jpg"></td>
+						<td>Cerveja BudWeiser </td>
+						<td>343mL</td>
+						<td>Long Neck</td>
+
+						<td>
+							<span>
+								<input type="button" name="" id="btnDiminuiQntd" value="-">
+								<input type="text" name="quantidade" id="quantidade" value="0" readonly="">
+								<input type="button" name="" id="btnAumentaQntd" value="+">
+							</span>
+						</td>
+						<td class="numero">R$ 3,29</td>
+					</tr>
+
+				</table>
+
+			</div>
+			
+		</div>
+
+</body>
+</html>

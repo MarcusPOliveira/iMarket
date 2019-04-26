@@ -1,0 +1,147 @@
+/*
+layout página
+*/
+body {
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url("../imagens/fundo.jpg")no-repeat;
+}
+
+header {
+    background-color: #8B0000;
+	height: 100px;	
+}
+
+/*
+menu horizontal
+*/
+ul{
+	margin: 60px 100px;
+	padding: 0;
+	list-style: none;
+	
+	background: #8B0000;
+	float: left;
+
+}
+
+ul li{
+	float: left;
+}
+
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+ul .primeiro a{
+	background: none;
+}
+
+ul a:hover{
+	background: #d13636;
+}
+
+#logo {
+	float: left;
+	margin-left: 250px;
+}
+
+
+
+
+/*
+Tabela
+*/
+
+table{
+	text-align: center;
+	width: 900px;
+	border-collapse: collapse;
+
+}
+
+th, td{
+	
+	padding: 7px;
+
+}
+
+tr{
+	border-bottom: 3px solid #111;
+}
+
+th{
+	text-transform: uppercase;
+	border-bottom: 3px solid #111;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado{
+	background-color: #efefef;
+}
+
+tr:hover{
+	background-color: #c3e6e5;
+}
+
+.numero{
+	text-align: right;
+}
+
+#tabela{
+	width: 900px;
+	margin:  140px auto;
+	 
+}
+
+.itemProduto{
+ 	width: 100px;
+}
+
+input[type="text"]{
+    border-radius: 2px;
+    border: 2px solid #111;  
+    width: 30px;
+    text-align: center;
+}
+.continuarComprando{
+	background: #CD5C5C;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: 6px;
+	border-radius: 2px;
+
+}
+.concluir{
+
+	background: #8B0000;
+	font-size: 22px;
+	color: white;
+	text-decoration: none;
+	padding: 7px;
+	border-radius: 2px;
+	border-right-color: #8B0000
+;
+
+
+}
+
+input[type="submit"]{
+	background: #CD5C5C;
+	border-radius: 2px;
+	border-color: #CD5C5C;
+	font-size: 20px;
+	padding: 4px;
+	color: white;
+	margin-top: 50px;
+	cursor: pointer;
+
+
+}
